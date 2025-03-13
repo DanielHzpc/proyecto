@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Musica</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 7rem;
+        }
+
+        .icon {
+            width: 5rem;
+            height: auto;
+            margin-right: 2rem;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 90vh;
+        }
+
+        h1 {
+            margin-top: 2rem;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            height: 50vh;
+        }
+
+        .image{
+            height: 20rem;
+            width: auto;
+        }
+
+        .desc{
+            width: 50%;
+        }
+
+        .interes {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            height: 70%;
+            width: 70%;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #contact {
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        form {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #contact form div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            margin: 0.5rem;
+        }
+
+        input{
+            width: 10rem;
+            height: 1rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        textarea {
+            width: 20rem;
+            height: 5rem;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        .sub {
+            margin-top: 1rem;
+            border: 1px solid black;
+            background: none;
+            height: 2rem;
+            width: 8rem;
+            font-size: .9rem;
+        }
+
+        .sub:hover {
+            background-color: black;
+            color: white;
+            transition: 0.2s;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="icon" src="https://static.vecteezy.com/system/resources/previews/018/250/991/non_2x/music-playlist-icon-on-transparent-background-free-png.png" alt="">
+            <ul>
+                <li><a href="landing.html">Inicio</a></li>
+                <li><a href="#contact">Contactanos</a></li>
+                <li><a href="inicioSesion.html">Iniciar Sesion</a></li>
+                <li><a href="">Sitios de Interes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Musica</h1>
+
+        <section class="about">
+            <img class="image" src="https://media.istockphoto.com/id/1455799854/es/vector/icono-de-l%C3%ADnea-de-nota-musical-dise%C3%B1o-de-boceto-p%C3%ADxel-perfecto-trazo-editable-m%C3%BAsica.jpg?s=612x612&w=0&k=20&c=E068x5cs3yBD3yZUmhuhvaFB0PQOe804dIOmW7gbGPc=" alt="">
+            <p class="desc">La música (del griego: μουσική [τέχνη] - mousikē [téchnē], «el arte de las musas») es, según la definición tradicional del término, el arte de crear y organizar sonidos y silencios respetando los principios fundamentales de la melodía, la armonía y el ritmo, mediante la intervención de complejos procesos psicoanímicos. El concepto de música ha ido evolucionando desde su origen en la Antigua Grecia, en que se reunía sin distinción a la poesía, la música y la danza como arte unitario. Desde hace varias décadas se ha vuelto más compleja la definición de qué es y qué no es la música, ya que destacados compositores en el marco de diversas experiencias artísticas fronterizas han realizado obras que, si bien podrían considerarse musicales, expanden los límites de la definición de este arte.</p>
+        </section>
+
+        <section class="interes">
+            <table>
+                <tr>
+                    <th>Genero</th>
+                    <th>Exponente mas Grande</th>
+                    <th>Oyentes mensuales</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Genero Urbano</td>
+                    <td>Bad Bunny</td>
+                    <td>90.3 M</td>
+                    <td><a target="_blank" href="https://open.spotify.com/intl-es/artist/4q3ewBCX7sLwd24euuV69X">Spotify</a></td>
+                </tr>
+                <tr>
+                    <td>Rap - Ingles</td>
+                    <td>Kendrick Lamar</td>
+                    <td>109 M</td>
+                    <td><a target="_blank" href="https://open.spotify.com/intl-es/artist/2YZyLoL8N0Wb9xBt1NhZWg">Spotify</a></td>
+                </tr>
+                <tr>
+                    <td>Rap - Español</td>
+                    <td>Canserbero</td>
+                    <td>7.6 M</td>
+                    <td><a target="_blank" href="https://open.spotify.com/intl-es/artist/1wGIhYkKWSq4yACtTkCkSX">Spotify</a></td>
+                </tr>
+                <tr>
+                    <td>Pop</td>
+                    <td>Taylor Swift</td>
+                    <td>87 M</td>
+                    <td><a target="_blank" href="https://open.spotify.com/intl-es/artist/06HL4z0CvFAxyc27GXpf02">Spotify</a></td>
+                </tr>
+            </table>
+        </section>
+        
+    </main>
+
+    <footer id="contact">
+        <form action="">
+            <div>
+                <label for="">Nombre: </label>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <label for="">Email: </label>
+                <input type="email" name="" id="" placeholder="Email">
+            </div>
+            <div>
+                <label for="">Mensaje:</label>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="sub">
+        </form>
+    </footer>
+
+</body>
+</html>
